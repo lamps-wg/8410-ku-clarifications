@@ -6,11 +6,11 @@ LAMPS                                                          S. Turner
 Internet-Draft                                                     sn3rd
 Updates: 8410 (if approved)                                 S. Josefsson
 Intended status: Standards Track                                  SJD AB
-Expires: 3 October 2022                                      D. McCarney
+Expires: 27 October 2025                                     D. McCarney
                                                              Square Inc.
                                                                   T. Ito
                                                          SECOM CO., LTD.
-                                                            1 April 2022
+                                                           25 April 2025
 
 
      Clarifications for Ed25519, Ed448, X25519, and X448 Algorithm
@@ -50,11 +50,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 October 2022.
+   This Internet-Draft will expire on 27 October 2025.
 
 Copyright Notice
 
-   Copyright (c) 2022 IETF Trust and the persons identified as the
+   Copyright (c) 2025 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -125,10 +125,9 @@ Table of Contents
      keyCertSign; and
      cRLSign.
 
-   If the keyUsage extension is present in an end-entity or CRL issuer
-   certificate that indicates id-Ed25519 or id-Ed448 in
-   SubjectPublicKeyInfo, then the keyUsage extension MUST contain at
-   least one of the following:
+   If the keyUsage extension is present in an end-entity certificate
+   that indicates id-Ed25519 or id-Ed448 in SubjectPublicKeyInfo, then
+   the keyUsage extension MUST contain at least one of the following:
 
      nonRepudiation;
      digitalSignature; and
@@ -142,6 +141,26 @@ Table of Contents
      keyCertSign;
      encipherOnly; and
      decipherOnly.
+
+   If the keyUsage extension is present in a CRL issuer certificate that
+   indicates id-Ed25519 or id-Ed448 in SubjectPublicKeyInfo, then the
+   keyUsage extension MUST contain:
+
+   ~~ cRLSign; ~~
+
+   and zero or more of the following:
+
+   ~~ nonRepudiation; and digitalSignature; ~~
+
+   and the following MUST NOT be present:
+
+   ~~ keyEncipherment; dataEncipherment; keyAgreement; encipherOnly; and
+   decipherOnly; ~~
+
+   and if the CRL issuer is also a certification authority, then the
+   keyUsage extension MUST also contain:
+
+   ~~ keyCertSign. ~~
 
    If the keyUsage extension is present in a certification authority
    certificate that indicates id-Ed25519 or id-Ed448 in
