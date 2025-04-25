@@ -5,8 +5,7 @@ This is the working area for the LAMPS WG Internet-Draft, "Clarifications for Ed
 * [Editor's Copy](https://lamps-wg.github.io/8410-ku-clarifications/draft-ietf-lamps-8410-ku-clarifications.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-lamps-8410-ku-clarifications/)
 * [Working Group Draft](https://www.ietf.org/archive/id/draft-ietf-lamps-8410-ku-clarifications-00.html)
-* [Compare Editor's Copy to Working Group Draft](https://www.ietf.org/rfcdiff?url1=draft-ietf-lamps-8410-ku-clarifications&url2=https://lamps-wg.github.io/8410-ku-clarifications/draft-ietf-lamps-8410-ku-clarifications.txt)
-
+* [Compare Editor's Copy to RFC](https://author-tools.ietf.org/diff?doc_1=rfc9295&url_2=https://lamps-wg.github.io/8410-ku-clarifications/draft-ietf-lamps-8410-ku-clarifications.txt)
 
 ## Contributing
 
