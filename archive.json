@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-04-03T01:12:36.339915+00:00",
+  "timestamp": "2025-04-27T01:13:36.488752+00:00",
   "repo": "lamps-wg/8410-ku-clarifications",
   "labels": [
     {
@@ -24,14 +24,14 @@
       "color": "a2eeef"
     },
     {
-      "name": "help wanted",
-      "description": "Extra attention is needed",
-      "color": "008672"
-    },
-    {
       "name": "good first issue",
       "description": "Good for newcomers",
       "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
     },
     {
       "name": "invalid",
@@ -97,6 +97,24 @@
       "updatedAt": "2022-04-01T03:28:28Z",
       "closedAt": "2022-04-01T03:28:28Z",
       "comments": []
+    },
+    {
+      "number": 10,
+      "id": "I_kwDOGqXMmc5iC49h",
+      "title": "Update to match 9295",
+      "url": "https://github.com/lamps-wg/8410-ku-clarifications/issues/10",
+      "state": "OPEN",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [
+        "seanturner"
+      ],
+      "labels": [],
+      "body": "Update text to collect AUTH48 chnages.",
+      "createdAt": "2023-03-29T02:20:26Z",
+      "updatedAt": "2023-03-29T02:20:26Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -112,7 +130,7 @@
       "labels": [],
       "body": "Resolves #1.",
       "createdAt": "2022-01-14T16:33:08Z",
-      "updatedAt": "2022-03-02T04:57:11Z",
+      "updatedAt": "2022-06-30T14:58:04Z",
       "baseRepository": "lamps-wg/8410-ku-clarifications",
       "baseRefName": "main",
       "baseRefOid": "3a0a17e9f12e10ca8b264e81d32bc2cce8d0205d",
@@ -154,7 +172,7 @@
       "labels": [],
       "body": "Fixing typo.",
       "createdAt": "2022-03-02T15:12:00Z",
-      "updatedAt": "2022-03-02T15:25:29Z",
+      "updatedAt": "2022-06-30T14:58:00Z",
       "baseRepository": "lamps-wg/8410-ku-clarifications",
       "baseRefName": "main",
       "baseRefOid": "fa9c1c0ecb3fd1b36b6d3e4ced6f7e9a091a876a",
@@ -196,7 +214,7 @@
       "labels": [],
       "body": "Noticed a formatting issue.",
       "createdAt": "2022-03-02T16:22:27Z",
-      "updatedAt": "2022-03-02T16:32:54Z",
+      "updatedAt": "2022-06-30T14:57:53Z",
       "baseRepository": "lamps-wg/8410-ku-clarifications",
       "baseRefName": "main",
       "baseRefOid": "798536fc2774b2408e3cfd61f5bf5b489a69a81b",
@@ -238,7 +256,7 @@
       "labels": [],
       "body": "Resolves #5.",
       "createdAt": "2022-03-25T12:06:23Z",
-      "updatedAt": "2022-03-25T13:14:14Z",
+      "updatedAt": "2022-06-30T14:57:51Z",
       "baseRepository": "lamps-wg/8410-ku-clarifications",
       "baseRefName": "main",
       "baseRefOid": "f70b7582d65c7ab17ebec4018c21658a9abdc34b",
@@ -280,7 +298,7 @@
       "labels": [],
       "body": "Resolves #7.",
       "createdAt": "2022-04-01T03:26:43Z",
-      "updatedAt": "2022-04-01T03:28:28Z",
+      "updatedAt": "2022-06-30T14:57:44Z",
       "baseRepository": "lamps-wg/8410-ku-clarifications",
       "baseRefName": "main",
       "baseRefOid": "5a9c43d30da35eccd26036ce8bfdc5456f8104c3",
@@ -292,6 +310,76 @@
       "mergedBy": "seanturner",
       "mergeCommit": {
         "oid": "6f6da7776138cdff4dac6deca76671776f206b4f"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 9,
+      "id": "PR_kwDOGqXMmc46b8tF",
+      "title": "Adding text to address CRL Issuer",
+      "url": "https://github.com/lamps-wg/8410-ku-clarifications/pull/9",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Based on IESG comments.",
+      "createdAt": "2022-06-27T18:40:39Z",
+      "updatedAt": "2022-06-30T14:57:46Z",
+      "baseRepository": "lamps-wg/8410-ku-clarifications",
+      "baseRefName": "main",
+      "baseRefOid": "6f6da7776138cdff4dac6deca76671776f206b4f",
+      "headRepository": "lamps-wg/8410-ku-clarifications",
+      "headRefName": "CRL_issuer",
+      "headRefOid": "a06bafe34958f3a694812dcd084f218678d67fba",
+      "closedAt": "2022-06-30T14:56:45Z",
+      "mergedAt": "2022-06-30T14:56:45Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "5e8cef884cdf76374728d9cef42282178f5dd07a"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOGqXMmc481v1y",
+          "commit": {
+            "abbreviatedOid": "a06bafe"
+          },
+          "author": "cpu",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Update looks good from my perspective :+1: ",
+          "createdAt": "2022-06-27T20:09:16Z",
+          "updatedAt": "2022-06-27T20:09:16Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "id": "PR_kwDOGqXMmc58QtJz",
+      "title": "Update workflows",
+      "url": "https://github.com/lamps-wg/8410-ku-clarifications/pull/11",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Update archive.yml.",
+      "createdAt": "2024-09-22T02:02:23Z",
+      "updatedAt": "2025-04-25T20:01:30Z",
+      "baseRepository": "lamps-wg/8410-ku-clarifications",
+      "baseRefName": "main",
+      "baseRefOid": "5e8cef884cdf76374728d9cef42282178f5dd07a",
+      "headRepository": "lamps-wg/8410-ku-clarifications",
+      "headRefName": "seanturner-update-workflows",
+      "headRefOid": "909f2cedc958c108aa6a13f02bb6f629da278404",
+      "closedAt": "2025-04-25T20:01:30Z",
+      "mergedAt": "2025-04-25T20:01:30Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "816c5c19d89443351de561bd5022669ad329185a"
       },
       "comments": [],
       "reviews": []
